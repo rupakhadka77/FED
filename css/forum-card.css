@@ -1,0 +1,55 @@
+ 
+.forum-class > ul li{
+    list-style: none;
+   
+    /* align-items: left; */
+}
+.showForum{
+    /* max-width: 100rem!important; */
+    max-height: 500px!important;
+    overflow-y: auto!important;
+    overflow-x: auto!important;
+    font-size: medium!important;
+    line-height: 2;
+opacity: unset!important;
+   
+}
+.showForum::-webkit-scrollbar {
+    width: 7px;               /* width of the entire scrollbar */
+    height: 7px;               /* width of the entire scrollbar */
+  }
+  .showForum::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+  .showForum::-webkit-scrollbar-thumb {
+    background-color: blue;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
+.joinButton{
+    position:relative;
+    margin-left:2rem;
+    /* padding-left: 2rem; */
+}
+.names{
+    white-space: nowrap;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+}
+
+.forumCard{
+    padding:.5rem!important;
+}
+
+
+h5{
+    margin-bottom: none !important;
+    
+}
+.forum-class{    
+    background-color: #FFFFFF;
+   
+}
+.description{
+    font-size: xx-small!important;
+    text-align: left;
+}

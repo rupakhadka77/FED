@@ -1,0 +1,43 @@
+.classification-new-design .option {
+    padding: 20px;
+    background: rgba(255,255,255,0.9);
+    color: #222;
+    border-radius: .25rem;
+    float: none;
+    margin: 0 auto 10px;
+    display: inline-block;
+    max-width: inherit;
+}
+
+.signup-researcher-classification .c-signup-content {
+    width: 762px;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+.c-content {
+    float: left;
+    word-wrap: break-word;
+    /* min-height: 400px; */
+    height: auto !important;
+}
+
+.signup-researcher-classification .option {
+    text-decoration: none;
+    color: #333;
+    float: left;
+}
+
+a, .link {
+    color: #0080FF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover, .link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}

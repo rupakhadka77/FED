@@ -1,0 +1,239 @@
+html,
+body {
+    height: 100vh;
+    position: center;
+       
+}
+
+.title {
+    position: center;
+    font-size: 1.75rem;
+    line-height: 1.2 !important;
+    color: #332c2c;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-left:100px;
+    margin-top:50px;
+}
+.subtitle{
+    font-size: large;
+    padding-left:100px;
+    color:#033864;
+}
+
+.bg{
+    /* background: url(../img/t.png) no-repeat; */
+    background-color:  #9edafd;
+     filter: blur(0.5px);
+  
+}
+
+
+
+.classification-new-design .option {
+    max-width: 800px;
+}
+
+
+.classification-new-design .option {
+    text-align: center;
+ 
+    background: rgb(107, 107, 107);
+    color: rgb(187, 187, 187);
+    border-radius: 3rem;
+    float: none;
+    margin: 15px;
+    display: inline-block;
+    max-width: inherit;
+    cursor: pointer;
+    
+   
+   
+ 
+}
+
+.classification-new-design .option:hover {background-color: #3e828e;
+    opacity: 0.9;
+    text-decoration: none;
+    /* height: 100; */
+    /* width: 600; */
+    transition: 0.2s ease-in-out;
+    
+    
+}
+.classification-new-design .option:active {background-color: #0589a0;
+    opacity: 0.9;
+    text-decoration: none;
+    /* height: 100; */
+    /* width: 600; */
+    
+    
+    
+}
+
+
+.formm {
+    
+    position: relative;
+    zoom: 1;
+    /* padding-right: 100px;
+    padding-left: 560px; */
+    /* padding-top: 50px; */
+}
+
+.classification-new-design .option .indent-container {
+    position: relative;
+    zoom: 1;
+    padding-right: 40px;
+    padding-left: 60px;
+}
+
+.signup-researcher-classification .c-signup-content {
+    width: 762px;
+    margin: 0 auto 80px;
+    text-align: center;
+    position: relative;
+}
+.c-content {
+    float: left;
+    word-wrap: break-word;
+   min-height: 400px; 
+    height: auto !important;
+}
+
+
+a, .link {
+    color: #0080FF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover, .link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    position: center;
+}
+.classification-new-design .option .indent-container {
+    position: relative;
+    zoom: 1;
+    padding-right: 40px;
+    padding-left: 60px;
+}
+
+
+.classification-new-design .option .indent-container>.indent-left {
+    margin-left: -60px;
+    width: 40px;
+    float: left;
+}
+
+.classification-new-design .option .indent-container>.indent-right {
+    margin-right: -40px;
+    width: 20px;
+    float: right;
+}
+
+.classification-new-design .option .type {
+    font-size: 1.375rem;
+    line-height: 1.2 !important;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.classification-new-design .option .examples {
+    text-align: left;
+    font-family: "Roboto",Arial,sans-serif;
+    font-size: .875rem;
+    color: rgb(168, 168, 168);
+    /* margin-left: 40px; */
+    width: 435px;
+}
+
+
+.c-col-content {
+    float: center;
+    position: center;
+}
+.classification-new-design .option .icon {
+    opacity: 0.8;
+    margin: 0 auto;
+}
+.classification-new-design .option .indent-container>.indent-left {
+    margin-left: -60px;
+    width: 40px;
+    float: left;
+}
+
+.classification-new-design .academic-researcher-icon {
+    background-image: url("../img/researcher.png");
+    width: 69px;
+    height: 83px;
+}
+
+.classification-new-design .corporate-researcher-icon {
+    background: url(../img/tec.png) no-repeat;
+    width: 75px;
+    height: 80px;
+}
+
+.classification-new-design .just-interested-icon {
+    background: url(../img/tec.png) no-repeat;
+    width: 75px;
+    height: 80px;
+}
+
+.ico-medical-researcher-color {
+    background: url(../img/pri.png) no-repeat;
+    background-size: 75px 80px;
+    height: 80px;
+    width: 75px;
+}
+input.chk-btn {
+    display: none;
+  }
+.academic::after {
+    /* content: "❌"; */
+    font-size: 20px;
+
+}
+
+.academic {
+    padding: 10px;
+    border-radius: 3rem;
+    
+
+}
+#demo:checked ~ .academic::after {
+    /* content: "✔️"; */
+    /* content: ""; */
+  
+    background-color: #f6f6f6;
+}
+
+#demo:checked ~ .academic{
+    background-color: #3e828e;
+    opacity: 1;
+}
+#demo:checked ~ .classification-new-design{
+color: rgb(255, 255, 255);
+}
+.type-btn{
+    margin-left: 400px;
+    width: 200px;
+    padding:15px;
+    background-color: #033864;
+    color:white;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: #3e828e;
+}
